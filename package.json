@@ -1,0 +1,24 @@
+{
+  "name": "Reactive.js",
+  "version": "0.0.1",
+  "description": "mvvm框架研究",
+  "main": "dist/react.js",
+  "scripts": {
+    "start": "parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leeesin/Reactive.js.git"
+  },
+  "author": "qinjialei <954551222@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leeesin/Reactive.js/issues"
+  },
+  "homepage": "https://github.com/Leeesin/Reactive.js#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
