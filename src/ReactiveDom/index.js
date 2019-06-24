@@ -1,8 +1,6 @@
-import render from "./render";
+import { render, renderComponent } from "./render";
 
 export default {
-  render(vnode, container) {
-    container.innerHTML = '';
-    return render(vnode, container)
-  }
+  render,
+  renderComponent
 }
