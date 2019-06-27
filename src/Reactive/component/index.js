@@ -1,4 +1,4 @@
-import { renderComponent } from '../../ReactiveDom/render'
+import { renderComponent } from '../../ReactiveDom/diff'
 
 class Component {
   constructor(props = {}) {

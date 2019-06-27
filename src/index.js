@@ -1,27 +1,43 @@
 import Reactive from "./Reactive";
 import ReactiveDom from "./ReactiveDom";
-class Welcome extends Reactive.Component {
 
-  render() {
-    return <h1>Hello, {this.props.name}</h1>;
+class Counter extends Reactive.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      num: 1,
+      arr: [1, 2, 3, 4, 5]
+    }
   }
-}
 
+  onClick() {
+    this.setState({ num: this.state.num + 1 });
+    this.setState({
+      arr: [
+        1, 2, 3333333, 4, 5
+      ]
+    });
 
-class App extends Reactive.Component {
+  }
+
   render() {
     return (
       <div>
-        <Welcome name="Sara" />
-        <Welcome name="Cahal" />
-        <Welcome name="Edite" />
+        <h1>count: {this.state.num}</h1>
+        <button onClick={() => this.onClick()}>add</button>
+        <ul>
+          <li>{this.state.arr[0]}</li>
+          <li>{this.state.arr[1]}</li>
+          <li>{this.state.arr[2]}</li>
+          <li>{this.state.arr[3]}</li>
+        </ul>
+
       </div>
     );
   }
 }
-
 ReactiveDom.render(
-  <App />,
+  <Counter />,
   document.getElementById('root')
 );
 
