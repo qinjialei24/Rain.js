@@ -4,7 +4,7 @@
   "description": "mvvm框架研究",
   "main": "dist/react.js",
   "scripts": {
-    "start": "parcel ./index.html"
+    "dev": "parcel ./index.html"
   },
   "repository": {
     "type": "git",

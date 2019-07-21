@@ -10,13 +10,25 @@ class Counter extends Reactive.Component {
     }
   }
 
+  componentDidMount() {
+    console.log(2222222222);
+
+  }
+
   onClick() {
-    this.setState({ num: this.state.num + 1 });
-    this.setState({
-      arr: [
-        1, 2, 3333333, 4, 5
-      ]
-    });
+    for (let i = 0; i < 100; i++) {
+      this.setState(prevState => {
+        console.log(prevState.num);
+        return {
+          num: prevState.num + 1
+        }
+      });
+    }
+
+    // for (let i = 0; i < 100; i++) {
+    //   this.setState({ num: this.state.num + 1 });
+    //   console.log(this.state.num);
+    // }
 
   }
 
