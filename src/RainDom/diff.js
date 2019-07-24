@@ -1,4 +1,4 @@
-import { Component } from '../Reactive'
+import { Component } from '../Rain'
 import { setAttribute } from './dom.js'
 
 /**

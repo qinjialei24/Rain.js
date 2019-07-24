@@ -6,7 +6,7 @@
     [
       "transform-react-jsx",
       {
-        "pragma": "Reactive.createElement"
+        "pragma": "Rain.createElement"
       }
     ]
   ]

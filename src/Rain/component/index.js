@@ -1,4 +1,4 @@
-import { renderComponent } from '../../ReactiveDom/diff'
+import { renderComponent } from '../../RainDom/diff'
 import { enqueueSetState } from "../set-state-queue";
 
 class Component {

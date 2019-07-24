@@ -1,7 +1,7 @@
-import Reactive from "./Reactive";
-import ReactiveDom from "./ReactiveDom";
+import Rain from "./Rain";
+import RainDom from "./RainDom";
 
-class Counter extends Reactive.Component {
+class Counter extends Rain.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -48,7 +48,7 @@ class Counter extends Reactive.Component {
     );
   }
 }
-ReactiveDom.render(
+RainDom.render(
   <Counter />,
   document.getElementById('root')
 );

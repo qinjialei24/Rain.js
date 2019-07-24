@@ -1,21 +1,21 @@
 {
-  "name": "Reactive.js",
+  "name": "Rain.js",
   "version": "0.0.1",
-  "description": "mvvm框架研究",
+  "description": "mvvm框架实现",
   "main": "dist/react.js",
   "scripts": {
     "dev": "parcel ./index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leeesin/Reactive.js.git"
+    "url": "git+https://github.com/Leeesin/Rain.js.git"
   },
   "author": "qinjialei <954551222@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Leeesin/Reactive.js/issues"
+    "url": "https://github.com/Leeesin/Rain.js/issues"
   },
-  "homepage": "https://github.com/Leeesin/Reactive.js#readme",
+  "homepage": "https://github.com/Leeesin/Rain.js#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
